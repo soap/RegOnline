@@ -57,7 +57,10 @@ class JFormFieldSchedule extends JFormFieldList
 		if ($db->getErrorNum()) {
 			JError::raiseWarning(500, $db->getErrorMsg());
 		}
-
+		
+		// Merge any additional options in the XML definition.
+		$options = array_merge(parent::getOptions(), $options);
+		
 		return $options;
 	}
 }

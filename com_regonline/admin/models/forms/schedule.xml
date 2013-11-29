@@ -19,7 +19,9 @@
 			query="SELECT id, title FROM #__regonline_courses"
 			key_field="id"
 			value_field="title"
-			required="true" />
+			required="true">
+			<option value="">COM_REGONLINE_OPTION_SELECT_COURSE</option>
+		</field>
 
 		<field name="title"
 			type="text"

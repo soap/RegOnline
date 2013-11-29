@@ -17,7 +17,9 @@
 			description="COM_REGONLINE_FIELD_SCHEDULE_DESC"
 			default="0"
 			class="inputbox"
-			required="true" />
+			required="true">
+			<option value="">COM_REGONLINE_OPTION_SELECT_SCHEDULE</option>
+		</field>
 
 		<field name="registered_by"
 			type="user"
