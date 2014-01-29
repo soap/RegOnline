@@ -8,7 +8,7 @@ defined('_JEXEC') or die();
  * @author Prasit Gebsaap
  * @version 1.0
  */
-class BSMenuContext
+class JMenuContext
 {
     protected $component;
 

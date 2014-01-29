@@ -1,7 +1,7 @@
 <?php
 defined('_JEXEC') or die();
 
-abstract class BSToolbar
+abstract class JToolbarContext
 {
     protected static $html = array();
 
