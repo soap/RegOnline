@@ -9,7 +9,7 @@ jimport('joomla.application.component.controller');
  * @subpackage  
  * @since       1.0
  */
-class RegonlineController extends JController
+class RegonlineController extends JControllerLegacy
 {
 	/**
 	 * @var    string  The default view.
